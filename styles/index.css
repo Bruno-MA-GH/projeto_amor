@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p, h2 {
+  color: white;
+  /* Formatação básica das fontes */
+}
+
+p {
+  font-family: "Loved by the King", cursive;
+  line-height: 25px;
+}
+
+h2 {
+  margin: 2rem auto;
+  font-family: "Gochi Hand", cursive;
+}
+
+strong {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.slides {
+  display: block;
+  width: 80%;
+  margin: 32px auto;
+}
+.slides__item {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 25px 0px 0 rgba(31, 38, 135, 0.25);
+  backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  padding: 2rem;
+}
+.slides__item .img-5 {
+  transform: rotate(270deg);
+  position: relative;
+}
+.slides__item .slides__item-txt5 {
+  position: relative;
+  left: 90px;
+}
+.slides__item div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.slides__item img {
+  width: 30%;
+  height: 400px;
+  padding-top: 1rem;
+  object-fit: scale-down;
+}
+.slides__item p {
+  width: 50%;
+}
+.slides__item iframe {
+  box-shadow: 10px 10px 10px 10px rgba(54, 5, 92, 0.308);
+  display: block;
+  width: 60%;
+  margin: 4rem auto;
+}
+
+/*# sourceMappingURL=index.css.map */
